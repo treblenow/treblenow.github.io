@@ -125,13 +125,13 @@
       // sr.reveal('.container', { container: '.cover' });
       // sr.reveal('.cover');
       $(document).ready(function(){
-      sr.reveal('.one');
-      sr.reveal('.two',{delay:750});
-      sr.reveal('.three',{delay:1500});
+      sr.reveal('.one', {rotate:{x:65,y:65}});
+      sr.reveal('.two',{delay:750, rotate:{x:65}});
+      sr.reveal('.three',{delay:1500, rotate:{x:65}});
       sr.reveal('.four',{delay:250});
       sr.reveal('.five',{delay:250});
       sr.reveal('.six',{delay:250});
-      sr.reveal('.seven'),{delay:750};})
+      sr.reveal('.seven'),{delay:750, rotate:{x:65}};})
     </script>
   
 
